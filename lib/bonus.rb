@@ -22,8 +22,27 @@ def bonus
 
   #code your solution here:
 
+# epic_tragedy.each do |house, position|
+#    if position.include?("Romeo")
+#       {status: "dead"}
+#    end 
+   
   
 
-  #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  epic_tragedy
-end
+#   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
+#   epic_tragedy
+# end
+
+
+
+# def remove_strawberry(contacts)
+#    contacts.each do |person, contact_details_hash|
+#      if person == "Freddy Mercury"
+#        contact_details_hash.each do |attribute, data|
+#        if attribute == :favorite_ice_cream_flavors
+#          data.delete_if {|ice_cream| ice_cream == "strawberry"}
+#         end 
+#        end
+#      end
+#    end
+#  end
